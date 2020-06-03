@@ -8,6 +8,9 @@ import defineClassCat from './Cat'
 const Cat = defineClassCat()
 let cat = new Cat()
 
+
+
+
 let button = document.createElement('button')
 button.innerHTML = 'click'
 document.body.appendChild(button)

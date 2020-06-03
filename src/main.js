@@ -5,6 +5,7 @@ import defineClassCat from './Cat'
 // import imageLogo from './images/logo.png'
 // import imageKoala from './images/koala.jpg'
 
+
 const Cat = defineClassCat()
 let cat = new Cat()
 

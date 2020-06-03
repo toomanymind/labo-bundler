@@ -1,0 +1,26 @@
+@import "variables/basics";
+@import "components/button";
+
+body {
+  background-color: @bgColor;
+  margin: 8px;
+}
+
+.para {
+  display: flex;
+  border: 4px dashed #ccc;
+}
+
+img {
+  max-width: 50px;
+}
+
+.image {
+  height: 200px;
+  &.logo {
+    background: url("../images/logo.png");
+  }
+  &.koala {
+    background: url("../images/koala.jpg") no-repeat;
+  }
+}

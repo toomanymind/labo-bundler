@@ -1,7 +1,7 @@
 
 function defineClassCat() {
 
-  let Cat = function() {
+  var Cat = function() {
 
   }
 

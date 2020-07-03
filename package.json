@@ -32,6 +32,6 @@
     "core-js": "^3.6.5"
   },
   "browserslist": [
-    "since 2010"
+    "defaults"
   ]
 }

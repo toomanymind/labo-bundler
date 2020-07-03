@@ -32,6 +32,7 @@ const postCssLoader = {
 }
 
 module.exports = {
+  watch: true,
   mode: 'none',
   entry: {
     app: './src/main.js'

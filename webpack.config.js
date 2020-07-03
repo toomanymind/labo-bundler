@@ -32,7 +32,7 @@ const postCssLoader = {
 }
 
 module.exports = {
-  watch: true,
+  watch: false,
   mode: 'none',
   entry: {
     app: './src/main.js'
@@ -78,6 +78,22 @@ module.exports = {
             loader: 'less-loader',
             options: {
               sourceMap: true
+            }
+          }
+        ]
+      },
+      {
+        test: /\.js$/,
+        use: [
+          {
+            loader: 'babel-loader',
+            options: {
+              presets: [
+                '@babel/preset-env'
+              ],
+              // plugins: [
+              //   '@babel/plugin-transform-shorthand-properties'
+              // ]
             }
           }
         ]

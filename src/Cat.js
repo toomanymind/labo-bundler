@@ -1,14 +1,17 @@
 
 function defineClassCat() {
 
-  var Cat = function() {
+  let Cat = function() {
 
   }
 
   Cat.prototype = {
     constructor: Cat,
-    meow: function() {
+    meow() {
       console.log('meow~~~~~')
+      let f = n => {
+        console.log(this)
+      }
     }
   }
 
